@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-scripts-ts": "^2.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,8 +17,14 @@
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "src/index.tsx",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.0.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  },
   "keywords": [
     "language"
   ],
