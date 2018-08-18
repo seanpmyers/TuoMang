@@ -3,35 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^16.4.9",
-    "@types/react-dom": "^16.0.7",
+    "@types/react-router-dom": "^4.3.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4",
-    "react-scripts-ts": "^2.17.0"
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "2.17.0",
+    "roboto-fontface": "^0.10.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "src/index.tsx",
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.0",
-    "source-map-loader": "^0.2.3",
-    "typescript": "^3.0.1",
-    "webpack-cli": "^3.1.0",
-    "webpack-command": "^0.4.1"
-  },
-  "keywords": [
-    "language"
-  ],
-  "author": "Sean Myers",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seanpmyers/TuoMang/issues"
-  },
-  "homepage": "https://github.com/seanpmyers/TuoMang#readme"
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.7.0",
+    "@types/react": "^16.4.10",
+    "@types/react-dom": "^16.0.7",
+    "typescript": "^3.0.1"
+  }
 }
