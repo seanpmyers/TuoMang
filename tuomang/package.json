@@ -1,5 +1,6 @@
 {
   "name": "tuomang",
+  "description": "A web app for learning Chinese",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,12 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanpmyers/TuoMang"
+  },
+  "keywords": [],
+  "author": "Sean Myers",
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "@types/node": "^10.7.0",

@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TuoMang",
+  "name": "脱盲 - TuoMang",
+  "description": "A web app for learning Chinese",
   "icons": [
     {
       "src": "favicon.ico",

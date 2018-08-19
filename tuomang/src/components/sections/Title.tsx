@@ -6,12 +6,12 @@ class Title extends React.Component {
   public render() {
     return (
       <div>
-      <h1 className="title">
-        脱盲
+        <h1 className="title">
+          脱盲
         <span className="titlePinyin">
-          TuoMang
+            - TuoMang
         </span>
-      </h1>
+        </h1>
     </div>
     );
   }

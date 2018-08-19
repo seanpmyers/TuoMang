@@ -1,20 +1,18 @@
 import * as React from 'react';
 import "roboto-fontface"
 import {
-  Title,
   Sidebar
 } from '../Components'
 
-class Translate extends React.Component {
+
+class Home extends React.Component {
   public render() {
     return (
-      <div className="">
-        <Title />
+      <div className="Home">
         <Sidebar />
-        Translate Page
       </div>
     );
   }
 }
 
-export default Translate;
+export default Home;

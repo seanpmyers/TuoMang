@@ -1,5 +1,6 @@
 
 .title {
+  font-size: 25px;
   margin: 0;
   text-align: center;
   background: rgb(33, 172, 236);
@@ -8,4 +9,13 @@
 
 .titlePinyin {
   color: rgb(1, 33, 70);
+}
+
+.menuButton {
+  z-index: 0;
+  text-align: center;
+  background-color: rgb(137, 199, 250);
+  width: 180px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

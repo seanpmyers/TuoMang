@@ -5,16 +5,16 @@ import {
   Sidebar
 } from '../Components'
 
-class Translate extends React.Component {
+
+class About extends React.Component {
   public render() {
     return (
-      <div className="">
+      <div className="Home">
         <Title />
         <Sidebar />
-        Translate Page
       </div>
     );
   }
 }
 
-export default Translate;
+export default About;
