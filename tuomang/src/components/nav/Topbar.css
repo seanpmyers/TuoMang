@@ -1,0 +1,29 @@
+.topbarWrapper {
+
+}
+
+.topbarList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topbarLink {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+#linkStyle {
+  opacity: .75;
+  font-weight: 200;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+#linkStyle:hover {
+  opacity: 1;
+}

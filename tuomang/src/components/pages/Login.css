@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+#loginHeader {
+  background: linear-gradient(135deg ,rgb(137, 199, 250), rgb(2, 72, 153));
+}
+
+.loginBody {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5f9;
+}
+
+.loginContainer {
+  position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	margin-top: -200px;
+	overflow: hidden;
+}
+
+#c1 {
+  background: linear-gradient(135deg ,rgb(137, 199, 250), rgb(2, 72, 153));
+}
+
+.loginTitle {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+#t2 {
+  font-weight: 250;
+  font-size: 35px;
+  color: white;
+}
+
+.loginForm {
+  text-align: center;
+}
+
+
+.loginInput {
+  font-weight: 200;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255, .25);
+  color: rgb(137, 199, 250);
+  text-align: center;
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loginInput:focus {
+  background-color: white;
+  outline: none;
+  width: 35%;
+  transition-duration: .35s;
+}
+
+.loginInput:hover:not(:focus) {
+  background-color: rgb(255, 255, 255, .50);
+  transition: .5s;
+}
+
+::placeholder {
+  color: white;
+  outline: none;
+}
+
+.loginSubmit {
+  font-weight: 200;
+  font-size: 20px;
+  width: 25%;
+  background-color: white;
+  color: rgb(137, 199, 250);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginSubmit:hover {
+  background-color: rgb(248, 247, 247);
+}
+
+#goBack {
+  text-align: center;
+}
+
+#goBack a {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+#goBack a:hover {
+  color: rgb(137, 199, 250);
+  cursor: pointer;
+}

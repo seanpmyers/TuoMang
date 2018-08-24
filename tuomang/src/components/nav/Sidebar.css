@@ -1,10 +1,13 @@
 .sidebar {
+  border: solid;
+  display: none;
+  transition: .5s;
   position: fixed;
   z-index: 1;
   height: 100vh;
   width: 180px;
   font-family: 'Roboto', Helvetica;
-  background-color: rgb(137, 199, 250);
+  background: linear-gradient(135deg, rgb(137, 199, 250), rgb(2, 72, 153));
   padding: 20px;
   box-shadow: 3px 3px 10px #888888;
 }
@@ -35,4 +38,33 @@
 
 .link:hover {
   color: rgb(228, 241, 255);
+}
+
+#sidebarTitle {
+  border: solid;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+#closeButton {
+  color: rgb(1, 33, 70);
+  text-align: right;
+  font-size: 20px;
+}
+
+#closeButton:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#openMenu {
+  font-size: 20px;
+}
+
+#openMenu:hover {
+  color: rgb(131, 128, 128);
+  cursor: pointer;
 }

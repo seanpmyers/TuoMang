@@ -1,14 +1,10 @@
 
 .title {
   font-size: 25px;
+  font-weight: 300;
   margin: 0;
   text-align: center;
-  background: rgb(33, 172, 236);
   color: white;
-}
-
-.titlePinyin {
-  color: rgb(1, 33, 70);
 }
 
 .menuButton {
