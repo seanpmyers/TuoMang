@@ -7,7 +7,7 @@ class Title extends React.Component {
     return (
       <div>
         <h1 className="title">
-          脱盲 - TuoMang
+          脱盲 TuoMang
         </h1>
     </div>
     );

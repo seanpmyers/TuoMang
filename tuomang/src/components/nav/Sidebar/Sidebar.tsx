@@ -3,7 +3,7 @@ import "roboto-fontface"
 import "./Sidebar.css"
 import {
   createLink
-} from './Routes'
+} from '../Routes'
 
 const closeMenu = () => {
   //use the ! for null uncertainty

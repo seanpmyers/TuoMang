@@ -24,6 +24,10 @@ class Login extends React.Component {
             <a href="javascript:history.back()" >
               ← Go back
             </a>
+            &nbsp; | &nbsp;
+            <a>
+              Create Account
+            </a>
           </p>
         </section>
       </div>

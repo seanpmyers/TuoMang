@@ -1,0 +1,82 @@
+.translateWrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.translateTable {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.translateBox {
+  float: left;
+  padding: .5%;
+  height: 100vh;
+}
+
+#col1 {
+  background-color: #f3f5f9;/* Nice Color from digital ocean*/
+  color: rgb(2, 72, 153);
+  width: 15%;
+}
+
+#col2 {
+  width: 50%;
+}
+
+#col2Wrapper {
+  text-align: center;
+  color: rgb(2, 72, 153);
+}
+
+#col3 {
+  float: left;
+  background-color: #f3f5f9;/* Nice Color from digital ocean*/
+  color: rgb(2, 72, 153);
+  width: 32%;
+}
+
+#col3 p {
+  font-weight: 300;
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+}
+
+#col3 h2 {
+  text-align: center;
+}
+
+#readOptions {
+  background-color: #f3f5f9;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+}
+
+#readOptions li {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.textInput {
+  font-weight: 300;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255, .25);
+  color: rgb(2, 72, 153);
+  text-align: center;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid rgb(2, 72, 153);
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition-duration: .35s;
+}
+
+.textInput:focus {
+  transition-duration: .35s;
+  width: 100%;
+}

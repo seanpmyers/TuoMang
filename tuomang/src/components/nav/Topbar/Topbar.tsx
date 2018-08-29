@@ -3,7 +3,7 @@ import "roboto-fontface"
 import "./Topbar.css"
 import {
   createLink
-} from './Routes'
+} from '../Routes'
 
 class Topbar extends React.Component {
   public render() {

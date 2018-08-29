@@ -3,7 +3,7 @@ import './Home.css'
 import "roboto-fontface"
 import {
   Topbar
-} from '../Components';
+} from '../../Components';
 
 class Home extends React.Component {
   public render() {
@@ -18,8 +18,20 @@ class Home extends React.Component {
           <Topbar/>
         </div>
         <div className="afterTitle" id="homeInfo">
-          <div>
-            Home
+          <div className="sectionWrapper" id="colored">
+            <p>
+              Information about the app.
+            </p>
+          </div>
+          <div className="sectionWrapper">
+            <p>
+              Another bit about the app.
+            </p>
+          </div>
+          <div className="sectionWrapper" id="colored">
+            <p>
+              A third and final bit about the app.
+            </p>
           </div>
         </div>
       </div>

@@ -10,7 +10,8 @@ import {
   Translate,
   Error,
   About,
-  Login
+  Login,
+  News
 } from '../Components'
 
 function createLink(text: string, route: string, liclassName: string, linkStyle: string) {
@@ -34,7 +35,7 @@ class Routes extends React.Component {
             <Route path="/Translate" component={Translate} exact strict />
             <Route path="/About" component={About} exact strict />
             <Route path="/Login" component={Login} exact strict />
-            <Route path="/News" component={About} exact strict />
+            <Route path="/News" component={News} exact strict />
             <Route component={Error} />
           </Switch>
         </div>

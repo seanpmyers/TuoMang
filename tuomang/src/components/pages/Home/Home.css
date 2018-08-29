@@ -8,7 +8,6 @@
 }
 
 .homeWrapper {
-  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
@@ -47,6 +46,19 @@
 
 .afterTitle {
   margin-top: 250px;
+}
+
+.sectionWrapper {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#colored {
   background-color: #f3f5f9;/* Nice Color from digital ocean*/
-  
+}
+
+.sectionWrapper p {
+  font-weight: 300;
+  text-align: left;
 }

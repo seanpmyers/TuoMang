@@ -4,16 +4,18 @@ import './About.css'
 import {
   Title,
   Topbar
-} from '../Components'
+} from '../../Components'
 
 
 class About extends React.Component {
   public render() {
     return (
       <div className="aboutWrapper">
-        <div className="aboutHeader">
+        <div className="backgroundHeader">
           <Title />
-          <Topbar/>
+          <div>
+            <Topbar />
+          </div>
         </div>
         About page
       </div>

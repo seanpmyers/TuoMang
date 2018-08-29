@@ -1,25 +1,25 @@
 import * as React from 'react';
 import "roboto-fontface"
-import "./Translate.css"
+import "./News.css"
 import {
   Title,
   Topbar
-} from '../Components'
+} from '../../Components'
 
-class Translate extends React.Component {
+class News extends React.Component {
   public render() {
     return (
-      <div className="translateWrapper">
-        <div className="translateHeader">
+      <div className="newsWrapper">
+        <div className="backgroundHeader">
           <Title />
           <div>
             <Topbar />
           </div>
         </div>
-        Translate Page
+        News Page
       </div>
     );
   }
 }
 
-export default Translate;
+export default News;
